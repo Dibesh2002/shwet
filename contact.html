@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Shwet Bhairab Architect and Association</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Shwet Bhairab</h1>
+                <p>Architect & Association</p>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html" class="active nav-cta">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner-contact">
+        <div class="banner-content">
+            <h1 class="animate-on-scroll fade-in">Contact Us</h1>
+            <p class="animate-on-scroll fade-in delay-1">Get in touch to discuss your architectural needs.</p>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card animate-on-scroll fade-in">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>Madhyapur Thimi 03</p>
+                    <p>Bhaktapur</p>
+                    <p>Nepal</p>
+                </div>
+                <div class="info-card animate-on-scroll fade-in delay-1">
+                    <div class="info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>+977 98417 96798</p>
+                    <p>+977 98496 80319</p>
+                    <p>Sunday-Friday: 9am-6pm</p>
+                </div>
+                <div class="info-card animate-on-scroll fade-in delay-2">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>shwetbhairab@gmail.com</p>
+                    <p>ramstha2010@gmail.com</p>
+                    <p>careers@shwetbhairab.com</p>
+                </div>
+                <div class="info-card animate-on-scroll fade-in delay-3">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Sunday-Thursday: 9am-6pm</p>
+                    <p>Friday: 10am-2pm</p>
+                    <p>Saturday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="form-container animate-on-scroll slide-in-left">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below, and we'll get back to you as soon as possible.</p>
+                    <form id="contactForm" action="https://formspree.io/f/xdkgvqyy" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="projectType">Project Type</label>
+                            <select id="projectType" name="projectType">
+                                <option value="">Select Project Type</option>
+                                <option value="residential">Residential</option>
+                                <option value="commercial">Commercial</option>
+                                <option value="institutional">Institutional</option>
+                                <option value="urban">Urban Planning</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="map-container animate-on-scroll slide-in-right">
+                    <h2>Our Location</h2>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1573.9961064373388!2d85.3774458703942!3d27.67088501229447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b625154fc93%3A0x634bece0349b5079!2sShwet%20Bhairab%20Architects%20and%20Associates!5e0!3m2!1sen!2snp!4v1748052539594!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in">Frequently Asked Questions</h2>
+            <div class="accordion animate-on-scroll fade-in">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>What is the typical process for working with your firm?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Our process typically begins with an initial consultation to understand your needs and vision. We then move through concept design, design development, construction documentation, and construction administration phases. Throughout the process, we maintain open communication and collaboration with our clients.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>How much does it cost to hire an architect?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Architectural fees vary depending on project size, complexity, and scope of services. We offer flexible fee structures including fixed fees, percentage of construction costs, or hourly rates. We're happy to discuss your specific project and provide a detailed fee proposal.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>How long does the architectural design process take?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>The timeline varies depending on project size and complexity. A typical residential project might take 3-6 months for design and documentation, while larger commercial projects can take 6-12 months or more. We'll provide a detailed timeline during our initial consultation.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Do you work on projects outside your local area?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes, we work on projects throughout the region and have experience managing remote projects. We use digital tools for communication and collaboration, and we travel as needed for site visits and key meetings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content animate-on-scroll fade-in">
+                <h2>Ready to Start Your Project?</h2>
+                <p>We're excited to hear about your vision and help bring it to life.</p>
+                <a href="#contactForm" class="btn btn-primary">Contact Us Today</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <<img src="./shwet.jpg" alt="Swet Bhairab Logo" class="footer-logo-img">
+                    <div>
+                        <h2>Shwet Bhairab</h2>
+                        <p>Architect & Association</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                   <p><i class="fas fa-map-marker-alt"></i> Madhyapur Thimi 03 </p>
+                    <p><i class="fas fa-phone"></i> +977 98417 98798 </p>
+                    <p><i class="fas fa-envelope"></i> shwetbhairab@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Shwet Bhairab Architect and Association. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
